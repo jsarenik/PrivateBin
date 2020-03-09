@@ -33,7 +33,7 @@ defaultformatter = "plaintext"
 sizelimit = 10485760
 
 ; template to include, default is "bootstrap" (tpl/bootstrap.php)
-template = "bootstrap"
+template = "bootstrap-dark"
 
 ; (optional) notice to display
 ; notice = "Note: This is a test service: Data may be deleted anytime. Kittens will die if you abuse this service."
@@ -41,7 +41,7 @@ template = "bootstrap"
 ; by default PrivateBin will guess the visitors language based on the browsers
 ; settings. Optionally you can enable the language selection menu, which uses
 ; a session cookie to store the choice until the browser is closed.
-languageselection = true
+languageselection = false
 
 ; set the language your installs defaults to, defaults to English
 ; if this is set and language selection is disabled, this will be the only language
